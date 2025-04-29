@@ -3,78 +3,124 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name - Personal Website</title>
+  <title>Zhao Xingtong - Personal Website</title>
   <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      margin: 0;
-      padding: 20px;
-      background-color: #f2f2f2;
-      color: #333;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      text-align: center;
-      color: #003366;
-    }
-    h2 {
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-      color: #005599;
-    }
-    p {
-      line-height: 1.6;
-    }
-    ul {
-      line-height: 1.6;
-    }
-  </style>
+  body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .header-info h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #003366;
+  }
+  .divider {
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .profile-pic {
+  width: 220px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+  nav ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: #005599;
+    font-weight: bold;
+  }
+  h2 {
+    color: #000;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  /* 新增内容 */
+  p, li {
+    color: #000;
+  }
+</style>
+
 </head>
 <body>
   <div class="container">
-    <h1>Your Full Name</h1>
+    <!-- 姓名 -->
+    <div class="header-info">
+      <h1><strong>TongXing Zhao</strong></h1>
+      <div class="divider"></div>
+    </div>
 
-    <h2>Basic Information</h2>
-    <p>
-      I am currently a graduate student in the School of [Your School Name], [University Name]. I am pursuing my Master's degree in [Your Major or Program Name].
-    </p>
+    <!-- 照片 -->
+    <img src="profile.png" alt="Zhao Xingtong" class="profile-pic" />
 
-    <h2>Education Background</h2>
-    <ul>
-      <li>B.Sc. in [Major], [University], [Year]</li>
-      <li>M.Sc. in [Major], [University], [Expected Year]</li>
-    </ul>
+    <!-- 垂直导航目录 -->
+    <nav>
+      <ul>
+        <li><a href="#view">View</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Selected Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-    <h2>Research Interests</h2>
-    <p>
-      My research interests include [Research Area 1], [Research Area 2], and [Research Area 3]. I am currently working on [Short Project Description].
-    </p>
+    <!-- 内容区域 -->
+    <section id="view">
+      <h2>View</h2>
+      <p>
+        <strong>Zhao Xingtong</strong> received his Bachelor of Engineering degree from Qufu Normal University. He is familiar with C, MATLAB, Python, Multisim, Proteus, and other programming languages and software. He possesses a strong sense of morality, upright character, cheerful and humorous personality, and is good at enhancing team spirit.
+      </p>
+      <p>
+        He has strong learning and hands-on abilities, high execution skills, and a keen interest in computer programming. He actively participates in practical work and innovation projects. He is diligent in work, has a strong sense of teamwork, and is proficient in Office software. He gets along well with teachers and classmates. In life, he is optimistic and enthusiastic. He enjoys photography and has self-taught and mastered software such as Photoshop (PS) and Premiere (PR) for image processing and video editing.
+      </p>
+      <p>
+        Currently, <strong>Zhao Xingtong</strong> is pursuing a Master's degree in Information and Communication Engineering at Shandong Normal University. His current research focuses on covert communications and related technologies, with an emphasis on the application of Random Frequency Diverse Arrays (RFDA) in covert communication systems.
+      </p>
+    </section>
 
-    <h2>Research Experience</h2>
-    <ul>
-      <li><b>[Project Title]</b>, under the supervision of Prof. [Name], [University/Institute], [Year].</li>
-      <li><b>[Another Project]</b>, [Short description].</li>
-    </ul>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        <strong>Zhao Xingtong</strong>'s research focuses on covert communication, with an emphasis on the application of Random Frequency Diverse Arrays (RFDA). Most existing works on covert communications using RFDA allocate the entire available bandwidth to the array in order to enhance signal strength at the target location. However, this approach may not be optimal in scenarios where the available bandwidth is large or the required level of covertness is relatively low. His current project explores more flexible and efficient bandwidth allocation strategies to improve covert communication performance under such conditions.
+      </p>
+    </section>
 
-    <h2>Awards and Honors</h2>
-    <ul>
-      <li>[Award Name], [Year]</li>
-      <li>[Scholarship/Recognition], [Year]</li>
-    </ul>
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <p><em>Good things take time; what is meant to be will always find its way.</em></p>
 
-    <h2>Contact</h2>
-    <p>
-      Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br/>
-      GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a><br/>
-      LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a>
-    </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:1248319745@qq.com">1248319745@qq.com</a>
+      </p>
+    </section>
   </div>
 </body>
 </html>
